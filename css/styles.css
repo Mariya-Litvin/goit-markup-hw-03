@@ -1,0 +1,246 @@
+:root {
+  --accent-color-one: #212121;
+  --accent-color-two: #2196f3;
+  --secondary-color-font: #757575;
+  --main-color-light: #ffffff;
+  --main-color-dark: #000000;
+  --hover-focus-color: #188ce8;
+  --background-color-dark: #2f303a;
+  --background-color-team: #f5f4fa;
+  --footer-contact-color: rgba(255, 255, 255, 0.6);
+  --portfolio-cards-border: #eeeeee;
+}
+
+.list {
+  list-style: none;
+}
+
+.link {
+  text-decoration: none;
+}
+button {
+  cursor: pointer;
+}
+body {
+  font-family: "Roboto", sans-serif;
+  letter-spacing: 0.03em;
+  background: var(--main-color-light);
+  color: var(--accent-color-one);
+}
+
+/* Header */
+
+.logo {
+  font-family: "Raleway", sans-serif;
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 1.19;
+  color: var(--accent-color-two);
+}
+
+.logo-black {
+  color: var(--main-color-dark);
+}
+
+.logo-white {
+  color: var(--main-color-light);
+}
+
+.nav-item {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.02em;
+  color: var(--accent-color-one);
+}
+
+.nav-item:hover,
+.nav-item:focus {
+  color: var(--accent-color-two);
+}
+
+.nav .current {
+  color: var(--accent-color-two);
+}
+
+.contacts-item {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.02em;
+  color: var(--secondary-color-font);
+}
+
+.contacts-item:hover,
+.contacts-item:focus {
+  color: var(--accent-color-two);
+}
+/* Sections */
+
+.hero {
+  background-color: var(--background-color-dark);
+}
+
+.hero-title {
+  font-weight: 900;
+  font-size: 44px;
+  line-height: 1.36;
+  text-align: center;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+  color: var(--main-color-light);
+}
+
+.hero-btn {
+  font-family: "Roboto", sans-serif;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 1.88;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  letter-spacing: 0.06em;
+  color: var(--main-color-light);
+  background-color: var(--accent-color-two);
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+  border-radius: 4px;
+}
+
+.hero-btn:hover,
+.hero-btn:focus {
+  background-color: var(--hover-focus-color);
+}
+
+.visually-hidden {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  border: 0;
+  padding: 0;
+  white-space: nowrap;
+  clip-path: inset(100%);
+  clip: rect(0 0 0 0);
+  overflow: hidden;
+}
+
+.advantages-subtitle {
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 1.14;
+  text-transform: uppercase;
+}
+
+.advantages-text {
+  font-size: 14px;
+  line-height: 1.71;
+  color: var(--secondary-color-font);
+}
+
+.our-work-title,
+.team-title {
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.17;
+  text-align: center;
+}
+
+.team {
+  background: var(--background-color-team);
+}
+
+.team-name {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.19;
+  text-align: center;
+}
+
+.team-position {
+  font-size: 16px;
+  line-height: 1.19;
+  text-align: center;
+  color: var(--secondary-color-font);
+}
+
+.team-card-item {
+  background: var(--main-color-light);
+  box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14),
+    0px 2px 1px rgba(0, 0, 0, 0.2);
+  border-radius: 0px 0px 4px 4px;
+}
+
+/* Footer */
+
+.footer {
+  background-color: var(--background-color-dark);
+}
+
+.footer-address {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.71;
+  color: var(--main-color-light);
+  font-style: normal;
+}
+
+.footer-contact {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.71;
+  color: var(--footer-contact-color);
+  font-style: normal;
+}
+.footer-address:hover,
+.footer-address:focus,
+.footer-contact:hover,
+.footer-contact:focus {
+  color: var(--accent-color-two);
+}
+
+/* Portfolio */
+
+.filter-button {
+  font-family: "Roboto", sans-serif;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.63;
+  text-align: center;
+  letter-spacing: 0.03em;
+  color: var(--accent-color-one);
+  background: var(--background-color-team);
+  border-radius: 4px;
+}
+
+.filter-button:hover,
+.filter-button:focus {
+  color: var(--main-color-light);
+  background-color: var(--accent-color-two);
+  box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08),
+    0px 2px 2px rgba(0, 0, 0, 0.12);
+  border-radius: 4px;
+}
+
+.filter-title {
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 2;
+  letter-spacing: 0.06em;
+  color: var(--accent-color-one);
+}
+
+.filter-text {
+  font-size: 16px;
+  line-height: 1.88;
+  color: var(--secondary-color-font);
+}
+
+.filter-result {
+  background: var(--main-color-light);
+  border: 1px solid var(--portfolio-cards-border);
+}
+
+.filter-result-link:hover,
+.filter-result-link:focus {
+  background: var(--accent-color-two);
+}
