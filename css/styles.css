@@ -11,6 +11,21 @@
   --portfolio-cards-border: #eeeeee;
 }
 
+p,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  margin: 0;
+}
+
+ul {
+  margin: 0;
+  padding-left: 0;
+}
+
 .list {
   list-style: none;
 }
@@ -26,6 +41,14 @@ body {
   letter-spacing: 0.03em;
   background: var(--main-color-light);
   color: var(--accent-color-one);
+}
+
+.container {
+  width: 1200px;
+  padding-left: 15px;
+  padding-right: 15px;
+  outline: 2px solid red;
+  margin: 0 auto;
 }
 
 /* Header */
