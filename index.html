@@ -21,7 +21,7 @@
     <link rel="stylesheet" href="./css/styles.css" />
   </head>
   <body>
-    <header>
+    <header class="header">
       <div class="container">
         <nav>
           <a class="logo link" href="./index.html" lang="en"
@@ -52,7 +52,7 @@
           <button class="hero-btn" type="button">Замовити послугу</button>
         </div>
       </section>
-      <section class="advantages">
+      <section class="advantages section">
         <div class="container">
           <h2 class="visually-hidden">Наші переваги</h2>
           <ul class="list">
@@ -84,7 +84,7 @@
           </ul>
         </div>
       </section>
-      <section class="our-work">
+      <section class="our-work section">
         <div class="container">
           <h2 class="our-work-title">Чим ми займаємося</h2>
           <ul class="list">
@@ -115,10 +115,10 @@
           </ul>
         </div>
       </section>
-      <section class="team">
+      <section class="team section">
         <div class="container">
           <h2 class="team-title">Наша команда</h2>
-          <ul class="tream-card list">
+          <ul class="team-card list">
             <li class="team-card-item">
               <img
                 src="./images/igor_demyanenko.jpg"
@@ -126,8 +126,10 @@
                 width="270"
                 height="260"
               />
-              <h3 class="team-name">Ігор Дем'яненко</h3>
-              <p class="team-position" lang="en">Product Designer</p>
+              <div class="about-team">
+                <h3 class="team-name">Ігор Дем'яненко</h3>
+                <p class="team-position" lang="en">Product Designer</p>
+              </div>
             </li>
             <li class="team-card-item">
               <img
@@ -136,8 +138,10 @@
                 width="270"
                 height="260"
               />
-              <h3 class="team-name">Ольга Рєпіна</h3>
-              <p class="team-position" lang="en">Frontend Developer</p>
+              <div class="about-team">
+                <h3 class="team-name">Ольга Рєпіна</h3>
+                <p class="team-position" lang="en">Frontend Developer</p>
+              </div>
             </li>
             <li class="team-card-item">
               <img
@@ -146,8 +150,10 @@
                 width="270"
                 height="260"
               />
-              <h3 class="team-name">Микола Тарасов</h3>
-              <p class="team-position" lang="en">Marketing</p>
+              <div class="about-team">
+                <h3 class="team-name">Микола Тарасов</h3>
+                <p class="team-position" lang="en">Marketing</p>
+              </div>
             </li>
             <li class="team-card-item">
               <img
@@ -156,8 +162,10 @@
                 width="270"
                 height="260"
               />
-              <h3 class="team-name">Михайло Єрмаков</h3>
-              <p class="team-position" lang="en">UI Designer</p>
+              <div class="about-team">
+                <h3 class="team-name">Михайло Єрмаков</h3>
+                <p class="team-position" lang="en">UI Designer</p>
+              </div>
             </li>
           </ul>
         </div>
@@ -180,12 +188,12 @@
               >
             </li>
             <li>
-              <a class="footer-contact link" href="mailto:info@example.com"
+              <a class="footer-contact-email link" href="mailto:info@example.com"
                 >info@example.com</a
               >
             </li>
             <li>
-              <a class="footer-contact link" href="tel:+380991111111"
+              <a class="footer-contact-tel link" href="tel:+380991111111"
                 >+38 099 111 11 11</a
               >
             </li>
