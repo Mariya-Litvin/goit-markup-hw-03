@@ -40,6 +40,8 @@ button {
 
 img {
   display: block;
+  max-width: 100%;
+  height: auto;
 }
 
 body {
@@ -103,6 +105,8 @@ body {
   line-height: 1.14;
   letter-spacing: 0.02em;
   color: var(--accent-color-one);
+  padding-top: 32px;
+  padding-bottom: 32px;
 }
 
 .nav-item:hover,
@@ -126,6 +130,8 @@ body {
   line-height: 1.14;
   letter-spacing: 0.02em;
   color: var(--secondary-color-font);
+  padding-top: 32px;
+  padding-bottom: 32px;
 }
 
 .contacts-item:hover,
@@ -273,8 +279,10 @@ body {
 }
 
 /* Footer */
-.footer .logo {
+.footer-logo {
+  display: block;
   margin-bottom: 20px;
+  margin-right: 0;
 }
 
 .footer {
@@ -290,6 +298,7 @@ body {
   color: var(--main-color-light);
   font-style: normal;
   margin-bottom: 9px;
+  display: block;
 }
 
 .footer-contact-email,
@@ -299,7 +308,9 @@ body {
   line-height: 1.71;
   color: var(--footer-contact-color);
   font-style: normal;
+  display: block;
 }
+
 .footer-address:hover,
 .footer-address:focus,
 .footer-contact-email:hover,
