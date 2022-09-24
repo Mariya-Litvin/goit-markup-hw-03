@@ -233,6 +233,10 @@ body {
   gap: 30px;
 }
 
+.our-work-img {
+  width: calc((100%-60px) / 3);
+}
+
 .our-work-title,
 .team-title {
   font-weight: 700;
@@ -276,6 +280,7 @@ body {
   box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14),
     0px 2px 1px rgba(0, 0, 0, 0.2);
   border-radius: 0px 0px 4px 4px;
+  width: calc((100%-90px) / 4);
 }
 
 /* Footer */
@@ -365,10 +370,6 @@ body {
   gap: 30px;
 }
 
-/* .filter-result {
-  width: calc((100%-60px) / 3);
-} */
-
 .filter-title {
   font-weight: 700;
   font-size: 18px;
@@ -387,6 +388,10 @@ body {
 .filter-result {
   background: var(--main-color-light);
   border-bottom: 1px solid var(--portfolio-cards-border);
+}
+
+.filter-result-link {
+  width: calc((100%-60px) / 3);
 }
 
 .filter-result-link:hover,
