@@ -64,7 +64,7 @@ body {
 .header {
   padding-top: 24px;
   padding-bottom: 25px;
-  border: 1px solid var(--header-border-line-bottom);
+  border-bottom: 1px solid var(--header-border-line-bottom);
 }
 
 .logo {
@@ -229,9 +229,6 @@ body {
   color: var(--secondary-color-font);
 }
 
-.our-work.section {
-  padding-bottom: 0;
-}
 .our-work-list {
   display: flex;
   gap: 30px;
@@ -368,6 +365,9 @@ body {
 
 .about-card {
   padding: 20px 24px;
+  border-bottom: 1px solid var(--portfolio-cards-border);
+  border-left: 1px solid var(--portfolio-cards-border);
+  border-right: 1px solid var(--portfolio-cards-border);
 }
 
 .filter-cards {
@@ -393,7 +393,6 @@ body {
 
 .filter-result {
   background: var(--main-color-light);
-  border-bottom: 1px solid var(--portfolio-cards-border);
 }
 
 .filter-result-link {
